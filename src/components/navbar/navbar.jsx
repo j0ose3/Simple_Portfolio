@@ -1,4 +1,4 @@
-import styles from "./navbar.module.css";
+import styles from "./Navbar.module.css";
 import logo from "../../assets/logo.png";
 import contactImg from '../../assets/contact.png';
 import {Link} from "react-scroll";

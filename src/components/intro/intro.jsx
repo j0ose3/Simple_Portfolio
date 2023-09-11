@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./intro.module.css";
+import styles from "./Intro.module.css";
 import bg from "../../assets/image.png";
 import btnImg from '../../assets/hireme.png'
 import { Link } from "react-scroll";

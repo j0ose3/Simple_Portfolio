@@ -1,11 +1,13 @@
-import Intro from "./components/intro/intro";
-import Navbar from "./components/navbar/navbar";
+import Intro from "./components/Intro/Intro";
+import Navbar from "./components/Navbar/Navbar";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Intro />
+      <Skills />
     </div>
   );
 }
