@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Skills.module.css";
 import UIDesign from "../../assets/ui-design.png";
 import WebDesign from "../../assets/website-design.png";
-import AppDesign from "../../assets/app-design.png";
+import BackendDev from "../../assets/database.png";
 
 const Skills = () => {
   return (
@@ -15,23 +15,23 @@ const Skills = () => {
       <div className={styles.skillBars}>
         <div className={styles.skillBar}>
           <img src={UIDesign} alt="UIDesign" className={styles.skillBarImg} />
-          <div className="skillBarText">
+          <div className={styles.skillBarText}>
             <h2>UI/UX Design</h2>
-            <p>Demo text</p>
+            <p>This is a Demo text, you can write your own content here</p>
           </div>
         </div>
         <div className={styles.skillBar}>
           <img src={WebDesign} alt="WebDesign" className={styles.skillBarImg} />
-          <div className="skillBarText">
+          <div className={styles.skillBarText}>
             <h2>Web Design</h2>
-            <p>Demo Text</p>
+            <p>This is a Demo text, you can write your own content here</p>
           </div>
         </div>
         <div className={styles.skillBar}>
-          <img src={AppDesign} alt="AppDesign" className={styles.skillBarImg} />
-          <div className="skillBarText">
-            <h2>App Design</h2>
-            <p>Demo text</p>
+          <img src={BackendDev} alt="BackendDev" className={styles.skillBarImg} />
+          <div className={styles.skillBarText}>
+            <h2>Back-end</h2>
+            <p>This is a Demo text, you can write your own content here</p>
           </div>
         </div>
       </div>
