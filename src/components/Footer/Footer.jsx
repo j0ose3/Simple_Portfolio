@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Footer.module.css";
+import "./Footer.css";
 
 const Footer = () => {
-  return <footer id={styles.footer}>Copyright &#169; 2023 Humble K</footer>;
+  return <footer id={`footer`}>Copyright &#169; 2023 Humble K</footer>;
 };
 
 export default Footer;
